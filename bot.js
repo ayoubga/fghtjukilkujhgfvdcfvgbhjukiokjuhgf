@@ -28,42 +28,6 @@ client.user.setGame(`The Woken`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
-client.on('message', message => {
-    if (message.author.bot) return;
-     if (message.content === prefix + "help") {
-		 message.channel.send('**The Message Was Sent On Private**');
-Prefix :             
-
-	باند _______ تبنيد العضو
-	
-	كيك _________ تسوي كيك للعضو
-	
-	اسكت _____ تعطي ميو للشخس
-	
-	تكلم _____ تفك الميوت للشخص
-	
-	سحب ______ تسحب العضو الى الروم الي انت فيه 
-	
-	Bc ____ارسال برودكاست للاعضاء 
-   
-  role _______ اعطاء الشخص رتبة 
-	
-  role1 _______ ازالة الرتبة من الشخص
-
-  role all  رتبه ____ تعطي جميع الاعضاءرتبه
-		 
-  مسح ________ مسح الشات عدد
-
- message.author.sendMessage(`
- **
-_
-
-
-`);
-
-    }
-});
-
 
 
 
